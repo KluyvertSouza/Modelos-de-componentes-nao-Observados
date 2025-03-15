@@ -23,7 +23,7 @@ sig = 0.1
 mi = sin(2*pi * seq(0,1,length = n))
 
 ## Observações
-y = mi + rnorm(n = n, mean = 0 , sd = sig) # + 2
+y = mi + rnorm(n = n, mean = 0 , sd = sig)
 ```
 ![Rplot02](https://github.com/user-attachments/assets/b6770f37-4d27-4d1d-bb38-157e60fa0526)
 
