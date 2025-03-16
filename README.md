@@ -43,8 +43,9 @@ Em que a variável `Trend` é o componente de tendência estimado ($\tau$). O de
 
 ## Exemplo empírico
 
-  Na seção 6.1.2, o autor apresenta uma aplicação: estimação da tendência da inflação. Especificamente, foi ajustado aos dados do PCE de 1959Q1 a 2015Q4 usando o modelo de componentes não observados em (6.1)–(6.2).
+  Na seção 6.1.2, o autor apresenta uma aplicação: estimação da tendência da inflação. Especificamente, foi ajustado aos dados do PCE de 1959Q1 a 2015Q4 usando o modelo de componentes não observados.
 
 Conforme mencionado no livro, $ω^2$ controla a suavidade do componente de tendência. Foi definido $ν_{ω2} = 3$ e $S_{ω^2} = 2 \times 0,25^2$, de modo que a média a priori de $ω^2$ seja $0,25^2$. 
 
+![Rplot03](https://github.com/user-attachments/assets/811d877a-cc59-49cf-a12f-fe392bb10778)
 
