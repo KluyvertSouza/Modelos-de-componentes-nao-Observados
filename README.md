@@ -1,4 +1,4 @@
-# Modelos de componentes não Observados
+# Estimação Bayesiana de Modelos de componentes não Observados
 
   Essa publicação se refere ao trabalho de J.C.C. Chan que pode ser encontrado em https://joshuachan.org/papers/BayesMacro. Minha tarefa foi transcrever a rotina de códigos presente no capítulo 6 (que estava em MatLab) para a linguagem R. Essa modelos se enquadram em uma classe mais ampla de modelos chamada modelo de espaço de estado, modelos de espaço de estado lineares, alvo da minha pesquisa de mestrado.
 ## Modelos de Nível Local
@@ -45,6 +45,6 @@ Em que a variável `Trend` é o componente de tendência estimado ($\tau$). O de
 
   Na seção 6.1.2, o autor apresenta uma aplicação: estimação da tendência da inflação. Especificamente, foi ajustado aos dados do PCE de 1959Q1 a 2015Q4 usando o modelo de componentes não observados em (6.1)–(6.2).
 
-Conforme mencionado no livro, $ω^2$ controla a suavidade do componente de tendência. Foi definido $ν_{ω2} = 3$ e $S_{ω^2} = 2 \times 0,25^2$, de modo que a média anterior de $ω^2$ seja $0,25^2$. 
+Conforme mencionado no livro, $ω^2$ controla a suavidade do componente de tendência. Foi definido $ν_{ω2} = 3$ e $S_{ω^2} = 2 \times 0,25^2$, de modo que a média a priori de $ω^2$ seja $0,25^2$. 
 
 
