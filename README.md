@@ -36,7 +36,7 @@ mi = sin(2*pi * seq(0,1,length = n))
 ## Observações
 y = mi + rnorm(n = n, mean = 0 , sd = sig)
 ```
-![Rplot02](https://github.com/user-attachments/assets/b6770f37-4d27-4d1d-bb38-157e60fa0526)
+![Rplot04](https://github.com/user-attachments/assets/309dcb4b-f887-4895-804f-1307a3fb59c0)
 
 Em que a variável `Trend` é o componente de tendência estimado ($\tau$). O desenvolvimento está no código.
 
