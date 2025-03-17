@@ -101,6 +101,7 @@ tauv = rowMeans(X2)
 
 
 # Visualização
+y = ts(y,frequency = 4 , start = c(1959,1))
 plot(y, 
      xlab = "Ano", ylab = "PCE inflation", 
      xaxt = "n", yaxt = "n", 
